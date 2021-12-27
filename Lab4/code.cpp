@@ -1,19 +1,8 @@
-private void set_mode(bool mod) 
+private void set_mode(bool mode) 
 {
-	if(mode == true)
-	{
-		label1.Enabled = true;
-		button1.Enabled = true;
-		button2.Enabled = true;
-		button3.Enabled = true;
-		button4.Enabled = true;
-	}
-	else
-	{
-		label1.Enabled = false;
-		button1.Enabled = false;
-		button2.Enabled = false;
-		button3.Enabled = false;
-		button4.Enabled = false;
-	}
+		label1.Enabled = mode;
+		button1.Enabled = mode;
+		button2.Enabled = mode;
+		button3.Enabled = mode;
+		button4.Enabled = mode;
 }
